@@ -13,11 +13,15 @@ A RESTful API service to log and manage hypothetical AI safety incidents.
    ```
    npm run dev
    ```
-
-3. For production:
-   ```
-   npm start
-   ```
+You'll see basic interface on ``localhost:3000`` (use Browser)
+Various Endpoints like 
+```json
+   "get_all": "GET /incidents",
+   "get_one": "GET /incidents/:id",
+   "create": "POST /incidents",
+   "delete": "DELETE /incidents/:id"
+```
+are mentioned. Since there's nothing in Database on ``localhost:3000/incidents`` might show you nothing.
 
 ## Populating Sample Data
 
@@ -106,6 +110,5 @@ curl -X POST http://localhost:3000/incidents \
 - Node.js
 - Express.js
 - SQLite (with Sequelize ORM)
-- dotenv for environment variables
-- body-parser for request parsing
-- nodemon for development
+
+Had a lot of fun making this, Thanks!!
