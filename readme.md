@@ -2,14 +2,26 @@
 
 A RESTful API service to log and manage hypothetical AI safety incidents.
 
-## Setup
+## Clone the repository:
 
-1. Install dependencies:
+First, open your terminal and run the following command to clone the repository:
+
+```bash
+git clone https://github.com/PlumEvo/SparkleHood-Backend-Assignment.git
+```
+
+## Setup
+1. After cloning, go into the project directory:
+   ```
+   cd SparkleHood-Backend-Assignment
+   ```
+
+2. Install dependencies:
    ```
    npm install
    ```
 
-2. Start the development server:
+3. Start the development server:
    ```
    npm run dev
    ```
